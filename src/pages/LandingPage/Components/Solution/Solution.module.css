@@ -1,0 +1,63 @@
+.cont1 {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 60px;
+}
+.cont1 .left {
+  /* border: 2px solid red; */
+  width: 40%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 30px;
+}
+.left h1 {
+  font-size: 40px;
+}
+.left p {
+  font-size: 20px;
+  letter-spacing: 2;
+}
+
+.left button {
+  background-color: red;
+  color: white;
+  width: 300px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.cont1 .right {
+  /* border: 2px solid red; */
+  width: 50%;
+}
+.right img {
+  width: 100%;
+}
+
+.cont2 {
+  /* border: 2px solid red; */
+  background-color: #f7faff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+  gap: 50px;
+  /*---------- */
+}
+.cont2 h1 {
+  font-size: 30px;
+}
+.cardsec {
+  /* border: 2px solid red; */
+  width: 80%;
+  display: flex;
+  gap: 20px;
+}

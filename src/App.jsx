@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./pages/LandingPage/Landing.jsx";
 import LodingNavbar from "./pages/LandingPage/Components/LoadingNavBar/LodingNavbar.jsx";
 import PartnerWithUs from "./pages/LandingPage/Components/PartnerWithUs/PartnerWithUs.jsx";
+import Solution from "./pages/LandingPage/Components/Solution/Solution.jsx";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
 
         <Routes>
           <Route path="/" element={<Landing/>}/>
-          <Route path="/solution"/>
+          <Route path="/solution" element={<Solution/>}/>
           <Route path="/acountant" element={<PartnerWithUs/>}/>
           <Route path="/solution"/>
 
