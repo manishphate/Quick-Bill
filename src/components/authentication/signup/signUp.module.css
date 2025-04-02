@@ -1,0 +1,152 @@
+.maincontainer {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.maincontainer > img {
+    height: 80px;
+    width: 100px;
+}
+
+
+.maincontainer > h1 {
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.container {
+    /* border: 1px solid blue; */
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 420px;
+}
+
+.details > input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+input:focus {
+    border-color: #007bff;
+}
+
+.country {
+    width: 172px;
+    height: 40px;
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.checkbox{
+    font-size: 15px;
+
+}
+
+.checkbox > input {
+    margin: 10px;   
+}
+.privacyBtn{
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.loginBtn {
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.loginBtn:hover {
+    background: #0056b3;
+}
+
+.signupBtn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signupBtn:hover {
+    text-decoration: underline;
+}
+
+
+.extradetails {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.forgot {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+.optionalsignup {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.socialContainer {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.socialButton {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+}
+.socialButton:hover {
+    background: #f4f4f4;
+}

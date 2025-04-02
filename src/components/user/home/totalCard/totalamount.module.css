@@ -1,0 +1,134 @@
+.container1{
+    margin: 30px;
+    /* border: 2px solid red; */
+    width: 95%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border: 2px solid rgb(173, 172, 172);
+    border-radius: 10px;
+    height: 250px;
+    width: 450px;
+    overflow: hidden;
+}
+
+.title{
+    /* border: 2px solid red; */
+    height: 20%;
+    background: rgb(241, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title div h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.add_filed{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 8px;
+    border: none;
+    /* border: 2px solid red; */
+}
+
+.add_filed h3{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.add_icon{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: rgb(52, 76, 214);
+    font-size: 15px;
+}
+
+.progressBar{
+    /* border: 2px solid red; */
+    border-top: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar_container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.bar_container{
+    font-size: 14px;
+}
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background: orangered;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    /* border: 2px solid red; */
+}
+
+.current{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 5px;
+}
+
+.current h4{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(51, 51, 247);
+}
+
+.status h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(17, 14, 14);
+}
+.overdue{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.overdue h4{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: red;
+}

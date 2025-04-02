@@ -1,9 +1,10 @@
 import React from 'react'
+import Item_NavBar from '../item_navbar/Item_NavBar'
 
 const Invoice = () => {
   return (
     <>
-        <h1>Invoice</h1>
+      <Item_NavBar title="Invoice"/>
     </>
   )
 }

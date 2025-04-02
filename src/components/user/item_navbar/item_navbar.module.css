@@ -1,0 +1,66 @@
+.header{
+    height: 80px;
+    background: rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.items h1{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.add_items{
+    /* border: 2px solid red; */
+    width: 250px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add_items h1{
+    font-size: 20px;
+}
+
+.add_items button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-color: blue;
+    height: 30px;
+    width: 65px;
+    gap: 5px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.add_items button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threedot{
+    height: 30px;
+    width: 40px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    background: rgb(226, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

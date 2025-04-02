@@ -21,7 +21,7 @@ import btoomImg1 from "../../assets/landingBottomImg1.png";
 const Landing = () => {
   return (
     <>
-      {/* <LodingNavbar /> */}
+      <LodingNavbar />
       {/* ----------------- Top container --------------------------- */}
       <div className={styel.mSection1}>
         <div className={styel.headingContent}>

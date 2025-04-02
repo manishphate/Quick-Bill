@@ -1,0 +1,166 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #f4f4f4;
+    height: 710px;
+    /* hsgf */
+}
+
+.parentcontainer {
+    display: flex;
+    width: 55%;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.maincontainer {
+    /* border: 1px solid red; */
+    border-right: 1px solid rgb(213, 225, 238);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.maincontainer > img {
+    width: 120px;
+    height: 120px;
+}
+
+.maincontainer > h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.details input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.loginBtn {
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.loginBtn:hover {
+    background: #0056b3;
+}
+
+.optionalsignup {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socialButton {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    transition: 0.3s;
+}
+
+.socialButton:hover {
+    background: #f0f0f0;
+}
+
+.extradetails {
+    margin-top: 15px;
+    text-align: center;
+}
+.extradetails > p{
+    padding: 10px;
+}
+.forgot{
+    color:#007bff;
+}
+.forgot > button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.forgot> button:hover {
+    text-decoration: underline;
+}
+
+.signupBtn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signupBtn:hover {
+    text-decoration: underline;
+}
+
+.bannercontainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+}
+.bannercontainer img {
+    width: 100%;
+    height: auto;
+}
