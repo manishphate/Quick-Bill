@@ -1,6 +1,5 @@
 /* @tailwind base;
 @tailwind components;
-<<<<<<< HEAD
 @tailwind utilities; */
 
 
@@ -8,12 +7,4 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-=======
-@tailwind utilities;
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
->>>>>>> ea9776e4bbd6593b66db1bd77abfe5025fd10340
 }

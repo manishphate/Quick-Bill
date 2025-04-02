@@ -20,13 +20,13 @@ const LodingNavbar = () => {
           <NavLink to="/contactus">Contact Us</NavLink>
         </li>
         <li>
-          <NavLink to="/singin">
-            <button className={style.sInBtn}>SING IN</button>
+          <NavLink to="/signin">
+            <button className={style.sInBtn}>SIGN IN</button>
           </NavLink>
         </li>{" "}
         <li>
-          <NavLink to="/singup">
-            <button className={style.sUpBtn}>SING UP NOW</button>
+          <NavLink to="/signup">
+            <button className={style.sUpBtn}>SIGN UP NOW</button>
           </NavLink>
         </li>
       </ul>

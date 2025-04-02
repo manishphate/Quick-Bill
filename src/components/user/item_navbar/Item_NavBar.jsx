@@ -2,8 +2,11 @@ import React from 'react'
 import item from './item_navbar.module.css'
 import { IoAdd } from "react-icons/io5";
 import { PiDotsThreeOutlineVerticalFill } from "react-icons/pi";
+import { useNavigate } from 'react-router-dom';
 
-const Item_NavBar = ({title}) => {
+const Item_NavBar = ({title, itemForm}) => {
+
+  let navigate = useNavigate();
   return (
     <>
           <section className={item.header}>
@@ -12,11 +15,10 @@ const Item_NavBar = ({title}) => {
             </div>
     
             <div className={item.add_items}>
-              <button>
+              <button onClick={()=> navigate(`${itemForm}`)}>
                 <div>
                   <IoAdd />
                 </div>
-    
                 new
               </button>
     

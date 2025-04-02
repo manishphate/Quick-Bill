@@ -5,9 +5,11 @@ import signuplogo from "../../../assets/signuplogo.svg";
 import banner from "../../../assets/banner.png"
 import { FaGoogle, FaFacebook, FaLinkedin, FaXTwitter} from "react-icons/fa6";
 import { BsApple } from "react-icons/bs";
+import { useNavigate } from 'react-router-dom';
 
 const SignIn = () => {
   let { register, handleSubmit, setError, formState: { errors, isSubmitting } } = useForm();
+  let navigate = useNavigate();
 
   const delay = (d)=>{
     return new Promise((resolve, reject)=>{
@@ -21,9 +23,10 @@ const SignIn = () => {
   const onSubmit = async (data) =>{
     await delay(2)
     console.log(data);
-    if(data.Email !== "aarif.mdaarif2002@gmail.com"){
-      setError("myform", {message: "Email id is invalid"})
-    }
+    navigate("/userDashboard");
+    // if(data.Email !== "aarif.mdaarif2002@gmail.com"){
+    //   setError("myform", {message: "Email id is invalid"})
+    // }
   }
 
   return (
@@ -78,7 +81,7 @@ const SignIn = () => {
         <div className={style.extradetails}>
           <h4 className={style.forgot}><button>Forgot Email</button>/ <button>Password</button>?</h4>
           <p>
-          Don't have a Zoho account? <button className={style.signupBtn}>Sign up now</button>
+          Don't have a Zoho account? <button className={style.signupBtn} onClick={()=> navigate("/signup")}>Sign up now</button>
           </p>
         </div>
       </form>

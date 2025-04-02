@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import style from "../signup/signUp.module.css";
 import signuplogo from "../../../assets/signuplogo.svg";
 import { FaGoogle, FaFacebook, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -13,6 +14,8 @@ const SignUp = () => {
     setError,
     formState: { errors, isSubmitting },
   } = useForm();
+
+  let navigate = useNavigate();
 
   const delay = (d) => {
     return new Promise((resolve) => {
@@ -25,6 +28,7 @@ const SignUp = () => {
   const onSubmit = async (data) => {
     await delay(2);
     console.log(data);
+    navigate("/userDashboard");
     // if (data.Email !== "aarif.mdaarif2002@gmail.com") {
     //   setError("myform", { message: "Email ID is invalid" });
     // }
@@ -122,7 +126,7 @@ const SignUp = () => {
 
           <div className={style.extradetails}>
             <p>
-              Already have an account? <button className={style.signupBtn}>Login</button>
+              Already have an account? <button className={style.signupBtn} onClick={()=> navigate("/signin")}>Login</button>
             </p>
           </div>
         </div>
